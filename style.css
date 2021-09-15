@@ -193,6 +193,30 @@ header ul a:hover {
 
 .location-text h3 {
     line-height: 3rem;
-    border: 2px solid #349c9d;
+    border: 10px solid #349c9d;
     padding: 1rem;
+}
+
+/* Contact Section */
+footer {
+    background-color:#349c9d;
+    height: 10rem;
+    padding: 1rem;
+}
+
+footer .icons {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons a:hover {
+    opacity: 0.5;
+}
+
+.icons i {
+    font-size: 2rem;
+    color: black;
 }
