@@ -220,3 +220,84 @@ footer .icons {
     font-size: 2rem;
     color: black;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    header {
+        height: 15rem;
+    }
+
+    header h1 a {
+        font-size: 3rem;
+    }
+
+    header li a {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .about-us {
+        height: 40rem;
+    }
+
+    .our-products-container {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 5rem 20rem 40rem;
+    }
+
+    .our-products-container h2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .our-products ul {
+        margin-top: 5rem;
+    }
+
+    .our-products ul li {
+        font-size: 2rem;
+    }
+
+    .location {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .location-text h3 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+
+    footer {
+        height: 15rem;
+    }
+
+    footer h2 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    footer h3 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    footer .icons {
+        width: 25%;
+    }
+
+    .icons i {
+        font-size: 3rem;
+    }
+
+}
