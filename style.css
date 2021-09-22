@@ -379,8 +379,9 @@ footer .icons {
         font-size: 2rem;
     }
 
-    .mySlides.fade img {
+    img {
         width: auto;
+        height: 30rem;
     }
 
     .location {
