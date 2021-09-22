@@ -368,7 +368,7 @@ footer .icons {
         padding: 1rem;
         display: grid;
         grid-template-columns: none;
-        grid-template-rows: 5rem 20rem 40rem;
+        grid-template-rows: 5rem 20rem 60rem;
     }
 
     .our-products-container h2 {
@@ -386,12 +386,17 @@ footer .icons {
 
     img {
         width: auto;
-        height: 30rem;
+        height: 45rem;
     }
 
     video {
         width: auto;
-        height: 30rem;
+        height: 45rem;
+    }
+
+    .prev,
+    .next {
+        font-size: 2.5rem;
     }
 
     .location {
