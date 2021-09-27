@@ -76,7 +76,7 @@ header ul a:hover {
 
 /* Banner */
 .banner-image {
-    background-image: url(./Assets/Images/storefront-1.jpg);
+    background-image: url(Assets/Images/storefront-1.jpg);
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
